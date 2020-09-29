@@ -2,7 +2,15 @@
     "bbox": [204747.84129690897, 4123180.9154189397, 277143.3591648678, 4158000.721597014],
     "center": {"x": 240945.60023088838, "y": 4140590.818507977},
     "controls": [],
-    "projection": "EPSG:25829*m",
+    "layers": [{
+        "type": "wms",
+        "url": "https://www.ideandalucia.es/wms/mta10v_2007?",
+        "name": "mta10v_2007",
+        "legend": "Topográfico 1:10000 (vectorial)",
+        "transparent": true,
+        "tiled": true
+    }],
     "maxExtent": [73733.49801635131, 3928230.3582630055, 649949.4135838121, 4334624.218568861],
+    "projection": "EPSG:25829*m",
     "zoom": 3
 }
