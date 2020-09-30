@@ -1,16 +1,140 @@
 {
-    "bbox": [204747.84129690897, 4123180.9154189397, 277143.3591648678, 4158000.721597014],
-    "center": {"x": 240945.60023088838, "y": 4140590.818507977},
-    "controls": [],
-    "layers": ["new M.layer.WMS({
-	        url: 'https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_arb_abda_singulares?',
-	        name: 'REDIAM',
-	        legend: 'Árboles y Arboledas Singulares',
-	        version: '1.3.0',
-	        transparent: true,
-	        tiled: true 
-          })"],
-    "maxExtent": [73733.49801635131, 3928230.3582630055, 649949.4135838121, 4334624.218568861],
-    "projection": "EPSG:25829*m",
-    "zoom": 3
+  "bbox": [204747.84129690897, 4123180.9154189397, 277143.3591648678, 4158000.721597014],
+  "center": {"x": 240945.60023088838, "y": 4140590.818507977},
+  "controls": ["mouse", "layerswitcher"],
+  "maxExtent": [73733.49801635131, 3928230.3582630055, 649949.4135838121, 4334624.218568861],
+  "zoom": 3,
+  "layers": [
+    {
+      "layerType": "wms",
+      "url": "https://www.ideandalucia.es/wms/mta10v_2007?",
+      "name": "mta10v_2007",
+      "legend": "Topográfico 1:10000 (vectorial)",
+      "transparent": true,
+      "tiled": true,
+      "visibility": false
+    }, {
+      "layerType": "geojson",
+      "layer": {
+        "name": "puntossevilla",
+        "legend": "Puntos en Sevilla",
+        "source": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+              -5.986175537109375,
+              37.405073750176925
+              ]
+            }
+            },
+            {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+              -5.9600830078125,
+              37.39525510959719
+              ]
+            }
+            },
+            {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+              -5.96282958984375,
+              37.3761596260875
+              ]
+            }
+            },
+            {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+              -6.0239410400390625,
+              37.40725549559874
+              ]
+            }
+            },
+            {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+              -6.008148193359375,
+              37.35323862707864
+              ]
+            }
+            }
+          ]
+          },
+        "extract": false
+      },
+      "style": {
+        "type": "Point",
+        "options": {
+          "fill": {
+            "color": "red"
+          },
+          "radius": 10
+        }
+      },
+      "zindex": 1
+    }
+  ],
+  "plugins": [
+    {
+      "constructor": "PLG_Hor_Navigation",
+      "options": {
+      "measureLength": false,
+      "measureArea": false,
+      "geocalc": false,
+      "identify": {
+        "all": false
+      },
+      "catastroSearch": {
+        "add": false,
+        "config": null
+      },
+      "scale": {
+        "add": true,
+        "config": {
+        "scales": [1000, 2500, 5000, 10000, 20000, 25000, 50000, 100000, 150000, 250000, 500000, 1000000]
+        }							
+      },
+      "coordinatesZoom": true,
+      "addControls": {
+        "add": false,
+        "controls": []
+      }
+      }
+    }, {
+      "constructor": "Printer",
+      "options": {
+        "params": {
+          "pages": {
+            "creditos": "Impresión generada a través de Mapea"
+          },
+          "layout": {
+            "outputFilename": "PANGEA_${yyyy-MM-dd_hhmmss}"
+          }
+        },
+        "options": {
+          "layout": "imagen apaisada",
+          "format": "png",
+          "dpi": "127"
+        }
+      }				
+    }
+  ]
 }
