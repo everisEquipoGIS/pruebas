@@ -3,7 +3,22 @@
   "center": {"x": 240945.60023088838, "y": 4140590.818507977},
   "controls": ["mouse", "layerswitcher"],
   "maxExtent": [73733.49801635131, 3928230.3582630055, 649949.4135838121, 4334624.218568861],
-  "zoom": 3,
+  "zoom": 2,
+  "wmcfiles": ["https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/incendios/server/mapa_base.xml"],
+  "constructionLayers": [
+    {
+      "layerType": "wms",
+      "url": "https://www.callejerodeandalucia.es/servicios/base/wms?",
+      "name": "batimetria",
+      "legend": "Batimetría"
+    },
+    {
+      "layerType": "wms",
+      "url": "https://www.callejerodeandalucia.es/servicios/base/wms?",
+      "name": "contexto_andalucia",
+      "legend": "Contexto"
+    }
+  ],
   "layers": [
     {
       "layerType": "wms",
@@ -91,13 +106,13 @@
       },
       "zindex": 1
     }
-  ],
+  ],  
   "plugins": [
     {
       "constructor": "PLG_Hor_Navigation",
       "options": {
-      "measureLength": false,
-      "measureArea": false,
+      "measureLength": true,
+      "measureArea": true,
       "geocalc": false,
       "identify": {
         "all": false
@@ -135,6 +150,13 @@
           "dpi": "127"
         }
       }				
+    },
+    {
+      "constructor": "LocalLayers"
     }
-  ]
+  ],
+  "scripts": {
+    "js": ["https://cdn.statically.io/gh/everisEquipoGIS/PLG_LocalLayers/e4445028/1.0.0/locallayers.ol.min.js"],
+    "css": ["https://cdn.statically.io/gh/everisEquipoGIS/PLG_LocalLayers/e4445028/1.0.0/locallayers.min.css"]
+  }
 }
