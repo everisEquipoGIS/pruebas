@@ -108,7 +108,9 @@
     }
   ],
   "scripts": {
-    "inicio": {},
+    "inicio": {
+      "css": ["https://cdn.jsdelivr.net/gh/everisEquipoGIS/pruebas/estiloGeoperfil.css"]
+    },
     "final": {
       "js": [
         "https://cdn.statically.io/gh/everisEquipoGIS/PLG_Hor_Navigation/master/1.0.0/plg_hor_navigation.ol.min.js",
