@@ -1,4 +1,4 @@
-div[id$='layerThatContainSelectedFeatures'].toc-item-layer,
-div[id$='layerChangingColorWhenHovering'].toc-item-layer {
+#toc-activelayers div[id*='layerThatContainSelectedFeatures'].toc-item-layer,
+#toc-activelayers div[id*='layerChangingColorWhenHovering'].toc-item-layer {
     display: none;
 }
