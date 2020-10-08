@@ -109,7 +109,7 @@
   ],
   "scripts": {
     "inicio": {
-      "css": ["https://cdn.jsdelivr.net/gh/everisEquipoGIS/pruebas/estiloGeoperfil.css"]
+      "css": ["https://cdn.jsdelivr.net/gh/everisEquipoGIS/pruebas@9f59f19/estiloGeoperfil.css"]
     },
     "final": {
       "js": [
