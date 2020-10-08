@@ -29,6 +29,14 @@
       "tiled": true,
       "visibility": false
     }, {
+      "layerType": "wfs",
+      "url": "http://geostematicos-sigc.juntadeandalucia.es/geoserver/tematicos/ows?",
+      "namespace": "tematicos",
+      "name": "Provincias",
+      "legend": "Provincias",
+      "geometry": "MPOLYGON",
+      "ids": "3,4"
+    }, {
       "layerType": "geojson",
       "layer": {
         "name": "puntossevilla",
