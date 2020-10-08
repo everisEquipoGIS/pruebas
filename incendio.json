@@ -108,18 +108,21 @@
     }
   ],
   "scripts": {
-    "js": [
-      "https://cdn.statically.io/gh/everisEquipoGIS/PLG_Hor_Navigation/master/1.0.0/plg_hor_navigation.ol.min.js",
-      "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.ol.min.js",
-      "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.js",
-      "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.ol.min.js",
-      "https://cdn.statically.io/gh/everisEquipoGIS/pruebas/master/plugins.js"
-    ],
-    "css": [
-      "https://cdn.statically.io/gh/everisEquipoGIS/PLG_Hor_Navigation/master/1.0.0/plg_hor_navigation.ol.min.css",
-      "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.min.css",
-      "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.css",
-      "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.min.css"
-    ]
+    "inicio": {},
+    "final": {
+      "js": [
+        "https://cdn.statically.io/gh/everisEquipoGIS/PLG_Hor_Navigation/master/1.0.0/plg_hor_navigation.ol.min.js",
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.ol.min.js",
+        "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.js",
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.ol.min.js",
+        "https://cdn.statically.io/gh/everisEquipoGIS/pruebas/master/plugins.js"
+      ],
+      "css": [
+        "https://cdn.statically.io/gh/everisEquipoGIS/PLG_Hor_Navigation/master/1.0.0/plg_hor_navigation.ol.min.css",
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.min.css",
+        "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.css",
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.min.css"
+      ]
+    }
   }
 }
