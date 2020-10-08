@@ -1,7 +1,7 @@
 {
   "bbox": [204747.84129690897, 4123180.9154189397, 277143.3591648678, 4158000.721597014],
   "center": {"x": 240945.60023088838, "y": 4140590.818507977},
-  "controls": ["mouse", "layerswitcher"],
+  "controls": ["mouse"],
   "maxExtent": [73733.49801635131, 3928230.3582630055, 649949.4135838121, 4334624.218568861],
   "zoom": 2,
   "wmcfiles": ["https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/incendios/server/mapa_base.xml"],
@@ -106,57 +106,20 @@
       },
       "zindex": 1
     }
-  ],  
-  "plugins": [
-    {
-      "constructor": "PLG_Hor_Navigation",
-      "options": {
-      "measureLength": true,
-      "measureArea": true,
-      "geocalc": false,
-      "identify": {
-        "all": false
-      },
-      "catastroSearch": {
-        "add": false,
-        "config": null
-      },
-      "scale": {
-        "add": true,
-        "config": {
-        "scales": [1000, 2500, 5000, 10000, 20000, 25000, 50000, 100000, 150000, 250000, 500000, 1000000]
-        }							
-      },
-      "coordinatesZoom": true,
-      "addControls": {
-        "add": false,
-        "controls": []
-      }
-      }
-    }, {
-      "constructor": "Printer",
-      "options": {
-        "params": {
-          "pages": {
-            "creditos": "Impresión generada a través de Mapea"
-          },
-          "layout": {
-            "outputFilename": "PANGEA_${yyyy-MM-dd_hhmmss}"
-          }
-        },
-        "options": {
-          "layout": "imagen apaisada",
-          "format": "png",
-          "dpi": "127"
-        }
-      }				
-    },
-    {
-      "constructor": "LocalLayers"
-    }
   ],
   "scripts": {
-    "js": ["https://cdn.statically.io/gh/everisEquipoGIS/PLG_LocalLayers/e4445028/1.0.0/locallayers.ol.min.js"],
-    "css": ["https://cdn.statically.io/gh/everisEquipoGIS/PLG_LocalLayers/e4445028/1.0.0/locallayers.min.css"]
+    "js": [
+      "https://cdn.statically.io/gh/everisEquipoGIS/PLG_Hor_Navigation/master/1.0.0/plg_hor_navigation.ol.min.js",
+      "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.ol.min.js",
+      "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.js",
+      "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.ol.min.js",
+      "https://cdn.statically.io/gh/everisEquipoGIS/pruebas/master/plugins.js"
+    ],
+    "css": [
+      "https://cdn.statically.io/gh/everisEquipoGIS/PLG_Hor_Navigation/master/1.0.0/plg_hor_navigation.ol.min.css",
+      "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.min.css",
+      "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.css",
+      "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.min.css"
+    ]
   }
 }
