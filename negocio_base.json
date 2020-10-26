@@ -253,7 +253,7 @@
 		"namespace": "RedNatura2000",
 		"legend": "Red Natura 2000",
 		"geometry": "POLYGON",
-	  	"url": "http://www.cma.junta-andalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?",
+	  	"url": "https://www.cma.junta-andalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?",
 	 	"version": "1.1.0",
 	 	"getFeatureOutputFormat": "geojson",
   		"describeFeatureTypeOutputFormat": "geojson",
