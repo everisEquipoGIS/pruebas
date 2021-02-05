@@ -493,7 +493,7 @@
 					"style": {"fill": {"color": "#e65c00"}, "stroke": {"color": "#eec49ea3", "width": 6.5}, "radius": 25}
 				}
 				],
-				"animated": true,
+				"animated": false,
 				"hoverInteraction": true,
 				"displayAmount": true,
 				"distance": 80,
