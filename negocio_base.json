@@ -2,7 +2,7 @@
 	"bbox": [-61158.2411, 3952446.8356, 788755.9523, 4335911.9760],
 	"maxExtent": [-122724.4636, 3871892.4050, 837708.6073, 4410071.2895],
 	"wmc": {
-		"url": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/mapa_base.xml",
+		"url": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/mapa_base.xml",
 		"nombre": "WMC Base"
 	},
 	"capasWFS": [{
@@ -36,7 +36,7 @@
 			"selectable": true,
 			"sourceName": "EENNPP",
 			"share": {
-				"legend": "Espacios Naturales",
+				"legend": "Parques Nacionales",
 				"url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?",
 				"version": "1.1.0",
 				"name": "EENNPP",
@@ -62,7 +62,7 @@
 			"selectable": true,
 			"sourceName": "EENNPP",
 			"share": {
-				"legend": "Espacios Naturales",
+				"legend": "Parques Naturales",
 				"url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?",
 				"version": "1.1.0",
 				"name": "EENNPP",
@@ -88,7 +88,7 @@
 			"selectable": true,
 			"sourceName": "EENNPP",
 			"share": {
-				"legend": "Espacios Naturales",
+				"legend": "Parajes Naturales",
 				"url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?",
 				"version": "1.1.0",
 				"name": "EENNPP",
@@ -114,7 +114,7 @@
 			"selectable": true,
 			"sourceName": "EENNPP",
 			"share": {
-				"legend": "Espacios Naturales",
+				"legend": "Reservas Naturales",
 				"url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?",
 				"version": "1.1.0",
 				"name": "EENNPP",
@@ -140,7 +140,7 @@
 			"selectable": true,
 			"sourceName": "EENNPP",
 			"share": {
-				"legend": "Espacios Naturales",
+				"legend": "Paisajes Protegidos",
 				"url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?",
 				"version": "1.1.0",
 				"name": "EENNPP",
@@ -166,7 +166,7 @@
 			"selectable": true,
 			"sourceName": "EENNPP",
 			"share": {
-				"legend": "Espacios Naturales",
+				"legend": "Monumentos Naturales",
 				"url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?",
 				"version": "1.1.0",
 				"name": "EENNPP",
@@ -192,7 +192,7 @@
 			"selectable": true,
 			"sourceName": "EENNPP",
 			"share": {
-				"legend": "Espacios Naturales",
+				"legend": "Reservas Naturales Concertadas",
 				"url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?",
 				"version": "1.1.0",
 				"name": "EENNPP",
@@ -218,7 +218,7 @@
 			"selectable": true,
 			"sourceName": "EENNPP",
 			"share": {
-				"legend": "Espacios Naturales",
+				"legend": "Parques Periurbanos",
 				"url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?",
 				"version": "1.1.0",
 				"name": "EENNPP",
@@ -253,14 +253,13 @@
 		"namespace": "RedNatura2000",
 		"legend": "Red Natura 2000",
 		"geometry": "POLYGON",
-	  	"url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?service=WFS&request=getFeature&filter=%3CFilter%3E%3CPropertyIsEqualTo%3E%3CPropertyName%3EFIGURA%3C%2FPropertyName%3E%3CLiteral%3ELIC%3C%2FLiteral%3E%3C%2FPropertyIsEqualTo%3E%3C%2FFilter%3E",
+	  	"url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_Patrimonio_Natural?",
 	 	"version": "1.1.0",
 	 	"getFeatureOutputFormat": "geojson",
   		"describeFeatureTypeOutputFormat": "geojson",
   		"visibility": false,
   		"displayInLayerSwitcher": true
-	},
-	{
+	},{
 		"type": "WFS",
 		"style": {
 			"category": false,
@@ -400,7 +399,7 @@
 		"type": "GeoJSON",
 		"style": {
 			"category": false,
-			"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/centro_visitantes.png"}}
+			"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/centro_visitantes.png"}}
 		},
 		"name": "Centros de Visitantes",
 		"extract": false,
@@ -426,7 +425,7 @@
 		"type": "GeoJSON",
 		"style": {
 			"category": false,
-			"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/punto_informacion.png"}}
+			"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/punto_informacion.png"}}
 		},
 		"name": "Puntos de Información",
 		"extract": false,
@@ -452,7 +451,7 @@
 		"type": "GeoJSON",
 		"style": {
 			"category": false,
-			"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/ecomuseo.png"}}
+			"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/ecomuseo.png"}}
 		},
 		"name": "Ecomuseos",
 		"extract": false,
@@ -511,59 +510,59 @@
 				"attributeName": "TIPOEQUIPA",
 				"values": [{
 					"name": "AREA RECREATIVA",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/area_recreativa.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/area_recreativa.png"}}
 				},
 				{
 					"name": "AULA DE LA NATURALEZA",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/aula_naturaleza.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/aula_naturaleza.png"}}
 				},
 				{
 					"name": "CAMPING",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/campamento.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/campamento.png"}}
 				},
 				{
 					"name": "CARRIL CICLOTURISTA",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/carril_cicloturismo.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/carril_cicloturismo.png"}}
 				},
 				{
 					"name": "CASA RURAL",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/casa_rural.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/casa_rural.png"}}
 				},
 				{
 					"name": "HOTEL DE MONTAÑA",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/hotel_montana.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/hotel_montana.png"}}
 				},
 				{
 					"name": "JARDIN BOTANICO",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/jardin_botanico.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/jardin_botanico.png"}}
 				},
 				{
 					"name": "MIRADOR",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/mirador.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/mirador.png"}}
 				},
 				{
 					"name": "OBSERVATORIO",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/observatorio.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/observatorio.png"}}
 				},
 				{
 					"name": "PARQUE DE FAUNA SILVESTRE",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/parque_fauna_silvestre.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/parque_fauna_silvestre.png"}}
 				},
 				{
 					"name": "REFUGIO",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/refugio.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/refugio.png"}}
 				},
 				{
 					"name": "REFUGIO-VIVAC",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/vivac.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/vivac.png"}}
 				},
 				{
 					"name": "SENDERO SEÑALIZADO",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/sendero.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/sendero.png"}}
 				},
 				{
 					"name": "ZONA ACAMPADA CONTROLADA",
-					"style": {"icon": {"src": "https://www.cma.junta-andalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/zona_acampada.png"}}
+					"style": {"icon": {"src": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/img/ventana-theme/recursosmapas/images/icons/zona_acampada.png"}}
 				}]
 			}
 		},
